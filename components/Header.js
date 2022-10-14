@@ -1,5 +1,6 @@
 import Image from "next/Image";
 import HeaderItem from "./HeaderItem";
+import hulu from "./hulu.png"
 import {
   BadgeCheckIcon,
   CollectionIcon,
@@ -22,7 +23,7 @@ const Header = () => {
       </div>
       <Image
         className="object-contain"
-        src="https://ik.imagekit.io/octivion/Hulu/image_j2x07BQRJ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665483948804"
+        src={hulu}
         width={200}
         height={100}
       />
